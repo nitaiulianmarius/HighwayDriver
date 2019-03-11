@@ -1,0 +1,23 @@
+setfillstyle(1,RED);
+bar(0.08*u,0.58*u,0.75*u,0.75*u);
+bar(0.08*u,0.4*u,0.43*u,0.65*u+1);
+setcolor(11);
+for(int i=0.25*u;i<=0.4*u;i++)
+   line(0.43*u,0.4*u,0.35*u,i);
+setfillstyle(1,11);
+bar(0.08*u,0.25*u,0.35*u,0.4*u);
+setfillstyle(1,BLUE);
+bar(0.26*u,0.25*u,0.27*u+1,0.4*u);
+FillCircle(0.67*u,0.77*u,0.07*u,DARKGRAY);
+FillCircle(0.2*u,0.7*u,0.14*u,DARKGRAY);
+FillCircle(0.65*u,0.63*u,0.015*u,YELLOW);
+setfillstyle(1,YELLOW);
+bar(0.65*u,0.615*u,0.69*u,0.645*u);
+setfillstyle(1,BROWN);
+bar(0.25*u,0.55*u,0.43*u,0.56*u);
+bar(0.25*u,0.4*u,0.26*u,0.56*u);
+bar(0.42*u,0.4*u,0.43*u,0.56*u);
+bar(0.25*u,0.4*u,0.43*u,0.41*u);
+bar(0.35*u,0.44*u,0.38*u,0.45*u);
+bar(0.6*u,0.5*u,0.65*u,0.58*u);
+bar(0.619*u,0.45*u,0.63*u+1,0.5*u);
